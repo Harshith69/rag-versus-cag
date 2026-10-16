@@ -20,11 +20,11 @@ from src.evaluation.comparator import run_comparison, print_results, save_result
 console = Console()
 
 SAMPLE_QUESTIONS = [
-    "What is the main topic discussed in the document?",
-    "What are the key findings or conclusions?",
-    "What methodology or approach is described?",
-    "Are there any limitations mentioned?",
-    "What recommendations are provided?",
+    "What are the main applications of AI in banking and finance?",
+    "How is machine learning used for fraud detection in banks?",
+    "What are the risks and challenges of implementing AI in financial services?",
+    "How does AI improve customer experience in banking?",
+    "What regulatory considerations exist for AI adoption in finance?",
 ]
 
 

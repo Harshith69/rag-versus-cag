@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_MODEL = "qwen/qwen3.8-27b"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 CHROMA_PERSIST_DIR = "chroma_db"
